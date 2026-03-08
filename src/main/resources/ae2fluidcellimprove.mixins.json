@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.p_nsk.ae2fluidcellimprove.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ae2fluidcellimprove.refmap.json",
+  "mixins": [
+    "PortableCellItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
